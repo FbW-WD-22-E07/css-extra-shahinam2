@@ -31,6 +31,7 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
+    padding: 10px;
 
     display: flex;
     justify-content: space-around;
@@ -41,8 +42,10 @@ nav {
 nav a {
     text-align: center;
     text-decoration: none;
+    border: 1px solid black ;
+    border-radius: 10px;
     padding: 0 20px;
-    line-height: 100px;
+    line-height: 70px;
     color: var(--nav-a-co);
     text-transform: uppercase;
     transition: all 500ms;
