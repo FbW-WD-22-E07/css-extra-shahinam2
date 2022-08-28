@@ -44,12 +44,18 @@ nav a {
     line-height: 80px;
     color: var(--nav-a-co);
     text-transform: uppercase;
+    transition: all 500ms;
 }
 
 nav a:hover {
     background-color: var(--nav-a-hover);
+    border-radius: 10px;
     color: var(--nav-a-text-hover-color);
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    /* transform: translateY(-10px); */
+    /* font-size: 30px; */
+    /* font-size-adjust: 25px; */
+    transform: scale(1.2) translateY(10px);
 }
 
 /* h1, h2, section & p settings */
