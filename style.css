@@ -13,7 +13,8 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: calc(16px + 0.2vw);
+    /* font-size: calc(16px + 0.2vw); */
+    font-size: 1.2vw;
 }
 
 main {
@@ -44,7 +45,7 @@ nav a {
     text-decoration: none;
     border: 1px solid black ;
     border-radius: 10px;
-    padding: 0 20px;
+    padding: 0 3.5vw;
     line-height: 70px;
     color: var(--nav-a-co);
     text-transform: uppercase;
