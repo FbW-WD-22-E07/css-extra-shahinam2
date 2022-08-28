@@ -41,7 +41,8 @@ nav {
 nav a {
     text-align: center;
     text-decoration: none;
-    line-height: 80px;
+    padding: 0 20px;
+    line-height: 100px;
     color: var(--nav-a-co);
     text-transform: uppercase;
     transition: all 500ms;
@@ -49,8 +50,9 @@ nav a {
 
 nav a:hover {
     background-color: var(--nav-a-hover);
-    border-radius: 10px;
     color: var(--nav-a-text-hover-color);
+    border-radius: 10px;
+    /* padding: 0 10px; */
     /* font-size: 1.2em; */
     /* transform: translateY(-10px); */
     /* font-size: 30px; */
